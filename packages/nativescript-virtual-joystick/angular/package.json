@@ -1,0 +1,16 @@
+{
+	"name": "nativescript-virtual-joystick-angular",
+	"ngPackage": {
+		"lib": {
+			"entryFile": "index.ts",
+			"umdModuleIds": {
+				"@nativescript/core": "ns-core",
+				"@nativescript/angular": "ns-angular",
+				"@reazerdev/nativescript-virtual-joystick": "ns-nativescript-virtual-joystick"
+			}
+		},
+		"whitelistedNonPeerDependencies": [
+			"."
+		]
+	}
+}

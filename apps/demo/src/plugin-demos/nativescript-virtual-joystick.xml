@@ -1,0 +1,15 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+      xmlns:vj="@reazerdev/nativescript-virtual-joystick"
+      navigatingTo="navigatingTo" class="page">
+    <Page.actionBar>
+        <ActionBar title="nativescript-virtual-joystick" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+    <StackLayout class="p-20">
+        <ScrollView class="h-full">
+          <StackLayout>
+            <vj:VirtualJoystick />
+          </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</Page>
